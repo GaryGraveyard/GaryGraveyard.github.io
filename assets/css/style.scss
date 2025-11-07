@@ -1,0 +1,27 @@
+If you'd like to add your own custom styles:
+
+1. Create a file called `/assets/css/style.scss` in your site
+2. Add the following content to the top of the file, exactly as shown:
+    ```scss
+    ---
+    ---
+
+    @import "{{ site.theme }}";
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  background-image: url("https://file.garden/aPpGOu8r4WIJS6jI/GitHub%20Files/star.gif");
+
+  /* Full height */
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+    ```
